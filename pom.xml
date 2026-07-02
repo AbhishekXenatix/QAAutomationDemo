@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>QAAutomationDemo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+        <properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <maven.compiler.release>17</maven.compiler.release>
+            <monte-screen-recorder.version>0.7.7.0</monte-screen-recorder.version>
+        </properties>
+
+        <!-- allure bom  setup from  https://allurereport.org/docs/testng/  -->
+        <dependencyManagement>
+            <dependencies>
+                <dependency>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-bom</artifactId>
+                    <version>2.29.1</version>
+                    <type>pom</type>
+                    <scope>import</scope>
+                </dependency>
+            </dependencies>
+        </dependencyManagement>
+
+        <dependencies>
+
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-java</artifactId>
+                <version>7.34.4</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+            <dependency>
+                <groupId>com.github.stephenc.monte</groupId>
+                <artifactId>monte-screen-recorder</artifactId>
+                <version>${monte-screen-recorder.version}</version>
+            </dependency>
+
+            <!-- PDFBox for PDF reading -->
+            <dependency>
+                <groupId>org.apache.pdfbox</groupId>
+                <artifactId>pdfbox</artifactId>
+                <version>2.0.29</version>
+            </dependency>
+
+            <!-- Source: https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
+            <dependency>
+                <groupId>org.apache.tika</groupId>
+                <artifactId>tika-core</artifactId>
+                <version>4.0.0-alpha-1</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- AssertJ for better assertions -->
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>3.27.7</version>
+                <scope>test</scope>
+            </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-testng</artifactId>
+                <version>7.34.4</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-java</artifactId>
+                <version>4.35.0</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.11.0</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-cucumber7-jvm</artifactId>
+            </dependency>
+
+            <!-- allure setup from  https://allurereport.org/docs/testng/  -->
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-testng</artifactId>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- allure setup from  https://allurereport.org/docs/testng/  -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.20.1</version>
+            </dependency>
+
+            <!-- slf4j     https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-slf4j2-impl</artifactId>
+                <version>2.25.1</version>
+                <scope>compile</scope>
+            </dependency>
+
+            <!-- log4j-core   https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>2.25.4</version>
+            </dependency>
+
+            <!--  log4j api    https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>2.25.1</version>
+            </dependency>
+
+            <!-- for FileUtils   https://mvnrepository.com/artifact/commons-io/commons-io -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.20.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.datafaker</groupId>
+                <artifactId>datafaker</artifactId>
+                <version>2.5.0</version>
+            </dependency>
+
+        </dependencies>
+
+        <build>
+            <!-- Allure  AspectJ for the functionality of @Step and @Attachment  -->
+            <plugins>
+                <!-- Maven Surefire Test Executor Configuration with AspectJ Weaver Agent attached -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>3.1.2</version>
+                    <configuration>
+                        <testFailureIgnore>true</testFailureIgnore>
+                        <includes>
+                            <include>**/TestRunner.java</include>
+                        </includes>
+                        <argLine>
+                            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.20.1/aspectjweaver-1.9.20.1.jar"
+                        </argLine>
+                        <systemPropertyVariables>
+                            <!-- Forces Allure to write into your framework's custom test-outputs path -->
+                            <allure.results.directory>${project.basedir}/test-outputs/allure-results</allure.results.directory>
+                        </systemPropertyVariables>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.13.0</version> <!-- Use a modern, stable version -->
+                    <configuration>
+                        <release>17</release>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>net.masterthought</groupId>
+                    <artifactId>maven-cucumber-reporting</artifactId>
+                    <version>5.8.5</version>
+                    <executions>
+                        <execution>
+                            <id>generate-cucumber-report</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>generate</goal>
+                            </goals>
+                            <configuration>
+                                <projectName>CucumberECommerceAutomation</projectName>
+                                <skip>false</skip>
+                                <outputDirectory>exports/reports/CucumberReports/cucumber-reports
+                                </outputDirectory>
+                                <inputDirectory>target/cucumber-reports</inputDirectory>
+                                <jsonFiles>
+                                    <param>**/*.json</param>
+                                </jsonFiles>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <!-- Added Allure HTML Report Generator Plugin -->
+                <plugin>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-maven</artifactId>
+                    <version>2.12.0</version>
+                    <configuration>
+                        <resultsDirectory>${project.basedir}/test-outputs/allure-results</resultsDirectory>
+                        <reportDirectory>${project.build.directory}/allure-report</reportDirectory>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>generate-allure-report</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>report</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+            </plugins>
+        </build>
+    </project>
