@@ -2883,3 +2883,867 @@
 [INFO] 02-07-2026 20:24:46 [main] [ElementActions] - Clicked on the element:  By.linkText: Logout
 [INFO] 02-07-2026 20:24:48 [main] [Hooks] - Test Execution Finished
 [INFO] 02-07-2026 20:24:48 [main] [BrowserActions] - Closing the browser
+[INFO] 02-07-2026 22:49:08 [main] [PropertiesUtils] - Loading Properties File Data
+[INFO] 02-07-2026 22:49:14 [main] [DriverManager] - Driver created on:  Chrome
+[INFO] 02-07-2026 22:49:14 [main] [Hooks] -  Test Execution Start :
+[INFO] 02-07-2026 22:49:14 [main] [FilesUtils] - Cleaned directory successfully: test-outputs/allure-results
+[INFO] 02-07-2026 22:49:14 [main] [FilesUtils] - Directory does not exist or is not a directory: test-outputs/Logs
+[INFO] 02-07-2026 22:49:17 [main] [BrowserActions] - Navigated to URL:  https://awesomeqa.com/ui/
+[INFO] 02-07-2026 22:49:23 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:49:23 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:49:23 [main] [ElementActions] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:49:23 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:49:28 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Register
+[INFO] 02-07-2026 22:49:28 [main] [Waits] - Waiting for element to be visible:  By.linkText: Register
+[INFO] 02-07-2026 22:49:28 [main] [ElementActions] - Finding element:  By.linkText: Register
+[INFO] 02-07-2026 22:49:29 [main] [ElementActions] - Clicked on the element:  By.linkText: Register
+[INFO] 02-07-2026 22:49:32 [main] [BrowserActions] - Page title:  Register Account
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.id: input-firstname
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-firstname
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-firstname
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Data entered:  QA  in the field:  By.id: input-firstname
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.id: input-lastname
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-lastname
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-lastname
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Data entered:  Automation  in the field:  By.id: input-lastname
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.id: input-email
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-email
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-email
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Data entered:  Sola@a.com  in the field:  By.id: input-email
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.id: input-telephone
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-telephone
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-telephone
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Data entered:  012345  in the field:  By.id: input-telephone
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.id: input-password
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-password
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-password
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Data entered:  123456789  in the field:  By.id: input-password
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.id: input-confirm
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-confirm
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.id: input-confirm
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Data entered:  123456789  in the field:  By.id: input-confirm
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:49:38 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Finding element:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:49:38 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:49:43 [main] [BrowserActions] - Page title:  Your Account Has Been Created!
+[INFO] 02-07-2026 22:49:46 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Continue
+[INFO] 02-07-2026 22:49:46 [main] [Waits] - Waiting for element to be visible:  By.linkText: Continue
+[INFO] 02-07-2026 22:49:46 [main] [ElementActions] - Finding element:  By.linkText: Continue
+[INFO] 02-07-2026 22:49:46 [main] [ElementActions] - Clicked on the element:  By.linkText: Continue
+[INFO] 02-07-2026 22:49:48 [main] [BrowserActions] - Current URL:  https://awesomeqa.com/ui/index.php?route=account/account
+[INFO] 02-07-2026 22:49:50 [main] [Waits] - Waiting for element to be visible:  By.name: search
+[INFO] 02-07-2026 22:49:50 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:49:50 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:49:50 [main] [ElementActions] - Data entered:  mac  in the field:  By.name: search
+[INFO] 02-07-2026 22:49:50 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:49:50 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:49:50 [main] [ElementActions] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:49:51 [main] [ElementActions] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:49:54 [main] [BrowserActions] - Page title:  Search - mac
+[INFO] 02-07-2026 22:49:56 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:49:56 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:49:56 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:49:56 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:49:59 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:49:59 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:49:59 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook to your shopping cart!
+×
+[INFO] 02-07-2026 22:49:59 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:01 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:01 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:01 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:01 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:05 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:50:05 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:05 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added iMac to your shopping cart!
+×
+[INFO] 02-07-2026 22:50:05 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:07 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:07 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:07 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:10 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:50:10 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:10 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook Air to your shopping cart!
+×
+[INFO] 02-07-2026 22:50:10 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:12 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:12 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:15 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:50:15 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:16 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook Pro to your shopping cart!
+×
+[INFO] 02-07-2026 22:50:16 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:18 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:18 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:18 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:18 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:20 [main] [Waits] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:50:20 [main] [Waits] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:50:20 [main] [ElementActions] - Finding element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:50:20 [main] [ElementActions] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:50:20 [main] [BrowserActions] - Page title:  Shopping Cart
+[INFO] 02-07-2026 22:50:23 [main] [ShoppingCartPage] - removeiMacfrom cart
+[INFO] 02-07-2026 22:50:23 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:23 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:23 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:23 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:26 [main] [Waits] - Waiting for element to be visible:  By.xpath: //*[@id='content']/form/div/table
+[INFO] 02-07-2026 22:50:26 [main] [ElementActions] - Getting html source text from element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] 02-07-2026 22:50:26 [main] [ElementActions] - Finding element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] 02-07-2026 22:50:26 [main] [ShoppingCartPage] - assertiMacRemovedFromCart
+[INFO] 02-07-2026 22:50:28 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:28 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:28 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:28 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:30 [main] [HomePage] - removing product  MacBook Pro  from cart 
+[INFO] 02-07-2026 22:50:30 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:30 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:30 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:30 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:33 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:33 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:33 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:33 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:50:36 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart ul
+[INFO] 02-07-2026 22:50:36 [main] [ElementActions] - Getting html source text from element:  By.cssSelector: #cart ul
+[INFO] 02-07-2026 22:50:36 [main] [ElementActions] - Finding element:  By.cssSelector: #cart ul
+[INFO] 02-07-2026 22:50:36 [main] [HomePage] - assertMacBook ProRemovedFromCart
+[INFO] 02-07-2026 22:50:38 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:50:38 [main] [Waits] - Waiting for element to be visible:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:50:38 [main] [ElementActions] - Finding element:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:50:39 [main] [ElementActions] - Clicked on the element:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:50:42 [main] [BrowserActions] - Page title:  Your Store
+[INFO] 02-07-2026 22:50:44 [main] [Waits] - Waiting for element to be visible:  By.name: search
+[INFO] 02-07-2026 22:50:44 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:50:44 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:50:44 [main] [ElementActions] - Data entered:  ipod  in the field:  By.name: search
+[INFO] 02-07-2026 22:50:44 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:50:44 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:50:44 [main] [ElementActions] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:50:45 [main] [ElementActions] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:50:47 [main] [BrowserActions] - Page title:  Search - ipod
+[INFO] 02-07-2026 22:50:49 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:49 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:49 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:50 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:53 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:50:53 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:53 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPod Classic to your shopping cart!
+×
+[INFO] 02-07-2026 22:50:53 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:55 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:50:55 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:50:55 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:50:55 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:50:58 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:50:58 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:50:58 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPod Nano to your shopping cart!
+×
+[INFO] 02-07-2026 22:50:58 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:51:00 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:00 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:00 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:00 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:02 [main] [Waits] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:51:02 [main] [Waits] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:51:03 [main] [ElementActions] - Finding element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:51:03 [main] [ElementActions] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:51:03 [main] [BrowserActions] - Page title:  Shopping Cart
+[INFO] 02-07-2026 22:51:05 [main] [ShoppingCartPage] - adding quantity to product :  3
+[INFO] 02-07-2026 22:51:05 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:05 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:05 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:05 [main] [ElementActions] - Data entered:  3  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:51:08 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:51:08 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:51:08 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:08 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:08 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:51:11 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:11 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:11 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:51:11 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:13 [main] [ShoppingCartPage] - adding quantity to product :  5
+[INFO] 02-07-2026 22:51:13 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:13 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:13 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:13 [main] [ElementActions] - Data entered:  5  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:51:15 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:51:15 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:51:15 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:16 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:51:19 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:19 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:19 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:51:19 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:21 [main] [ShoppingCartPage] - adding quantity to product :  1
+[INFO] 02-07-2026 22:51:21 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:21 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:21 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:21 [main] [ElementActions] - Data entered:  1  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:51:23 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:51:23 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:51:23 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:23 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:24 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:51:26 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:26 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:26 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:51:26 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:28 [main] [ShoppingCartPage] - adding quantity to product :  2
+[INFO] 02-07-2026 22:51:28 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:28 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:29 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:29 [main] [ElementActions] - Data entered:  2  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:51:31 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:51:31 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:51:31 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:31 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:32 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:51:34 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:34 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:34 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:51:34 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:51:36 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:36 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:36 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:36 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:51:38 [main] [HomePage] - removing product  MacBook  from cart 
+[INFO] 02-07-2026 22:51:38 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:51:38 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:38 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:51:38 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:51:40 [main] [HomePage] - removing product  iMac  from cart 
+[INFO] 02-07-2026 22:51:40 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:51:40 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:51:51 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Checkout
+[INFO] 02-07-2026 22:51:51 [main] [Waits] - Waiting for element to be visible:  By.linkText: Checkout
+[INFO] 02-07-2026 22:51:51 [main] [ElementActions] - Finding element:  By.linkText: Checkout
+[INFO] 02-07-2026 22:51:51 [main] [ElementActions] - Clicked on the element:  By.linkText: Checkout
+[INFO] 02-07-2026 22:51:52 [main] [BrowserActions] - Page title:  Checkout
+[INFO] 02-07-2026 22:51:54 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Data entered:  Test  in the field:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:51:54 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Data entered:  Lohas  in the field:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:51:54 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-address-1
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-address-1
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-address-1
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Data entered:  cairo  in the field:  By.id: input-payment-address-1
+[ERROR] 02-07-2026 22:51:54 [main] [NamingUtils] - Could not find parameter address
+[INFO] 02-07-2026 22:51:54 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-city
+[INFO] 02-07-2026 22:51:54 [main] [ElementActions] - Finding element:  By.id: input-payment-city
+[INFO] 02-07-2026 22:51:55 [main] [ElementActions] - Finding element:  By.id: input-payment-city
+[INFO] 02-07-2026 22:51:55 [main] [ElementActions] - Data entered:  giza  in the field:  By.id: input-payment-city
+[INFO] 02-07-2026 22:51:55 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:51:55 [main] [ElementActions] - Finding element:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:51:55 [main] [ElementActions] - Finding element:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:51:55 [main] [ElementActions] - Data entered:  0002  in the field:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:51:55 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-country
+[INFO] 02-07-2026 22:51:55 [main] [ElementActions] - Finding element:  By.id: input-payment-country
+[INFO] 02-07-2026 22:51:56 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-zone
+[INFO] 02-07-2026 22:51:56 [main] [ElementActions] - Finding element:  By.id: input-payment-zone
+[INFO] 02-07-2026 22:51:58 [main] [Waits] - Waiting for element to be clickable:  By.id: button-payment-address
+[INFO] 02-07-2026 22:51:58 [main] [Waits] - Waiting for element to be visible:  By.id: button-payment-address
+[INFO] 02-07-2026 22:51:58 [main] [ElementActions] - Finding element:  By.id: button-payment-address
+[INFO] 02-07-2026 22:51:58 [main] [ElementActions] - Clicked on the element:  By.id: button-payment-address
+[INFO] 02-07-2026 22:52:00 [main] [Waits] - Waiting for element to be clickable:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:52:00 [main] [Waits] - Waiting for element to be visible:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:52:00 [main] [ElementActions] - Finding element:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:52:00 [main] [ElementActions] - Clicked on the element:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:52:02 [main] [Waits] - Waiting for element to be clickable:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:52:02 [main] [Waits] - Waiting for element to be visible:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:52:02 [main] [ElementActions] - Finding element:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:52:02 [main] [ElementActions] - Clicked on the element:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:52:04 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:52:04 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:04 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:04 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:52:04 [main] [Waits] - Waiting for element to be clickable:  By.id: button-payment-method
+[INFO] 02-07-2026 22:52:04 [main] [Waits] - Waiting for element to be visible:  By.id: button-payment-method
+[INFO] 02-07-2026 22:52:04 [main] [ElementActions] - Finding element:  By.id: button-payment-method
+[INFO] 02-07-2026 22:52:05 [main] [ElementActions] - Clicked on the element:  By.id: button-payment-method
+[INFO] 02-07-2026 22:52:07 [main] [Waits] - Waiting for element to be visible:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Getting text from the element:  By.linkText: MacBook Air  Text:  MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [CheckOutPage] - product name is MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [Waits] - Waiting for element to be visible:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Getting text from the element:  By.linkText: MacBook Air  Text:  MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:52:07 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $1,000.00
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [CheckOutPage] - product price is $1,000.00
+[INFO] 02-07-2026 22:52:07 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $1,000.00
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  3
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [CheckOutPage] - product quantity is 3
+[INFO] 02-07-2026 22:52:07 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  3
+[INFO] 02-07-2026 22:52:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:07 [main] [CheckOutPage] - assertProductDetails is successfully passed
+[INFO] 02-07-2026 22:52:09 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Classic  Text:  iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [CheckOutPage] - product name is iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Classic  Text:  iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:52:09 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [CheckOutPage] - product price is $100.00
+[INFO] 02-07-2026 22:52:09 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  1
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [CheckOutPage] - product quantity is 1
+[INFO] 02-07-2026 22:52:09 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  1
+[INFO] 02-07-2026 22:52:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:09 [main] [CheckOutPage] - assertProductDetails is successfully passed
+[INFO] 02-07-2026 22:52:12 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Nano  Text:  iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [CheckOutPage] - product name is iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Nano  Text:  iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:52:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [CheckOutPage] - product price is $100.00
+[INFO] 02-07-2026 22:52:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  2
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [CheckOutPage] - product quantity is 2
+[INFO] 02-07-2026 22:52:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  2
+[INFO] 02-07-2026 22:52:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:12 [main] [CheckOutPage] - assertProductDetails is successfully passed
+[INFO] 02-07-2026 22:52:14 [main] [Waits] - Waiting for element to be clickable:  By.id: button-confirm
+[INFO] 02-07-2026 22:52:14 [main] [Waits] - Waiting for element to be visible:  By.id: button-confirm
+[INFO] 02-07-2026 22:52:14 [main] [ElementActions] - Finding element:  By.id: button-confirm
+[INFO] 02-07-2026 22:52:14 [main] [ElementActions] - Clicked on the element:  By.id: button-confirm
+[INFO] 02-07-2026 22:52:18 [main] [BrowserActions] - Page title:  Your order has been placed!
+[INFO] 02-07-2026 22:52:20 [main] [Waits] - Waiting for element to be clickable:  By.linkText: history
+[INFO] 02-07-2026 22:52:20 [main] [Waits] - Waiting for element to be visible:  By.linkText: history
+[INFO] 02-07-2026 22:52:20 [main] [ElementActions] - Finding element:  By.linkText: history
+[INFO] 02-07-2026 22:52:21 [main] [ElementActions] - Clicked on the element:  By.linkText: history
+[INFO] 02-07-2026 22:52:23 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:52:23 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:52:23 [main] [ElementActions] - Finding element:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:52:23 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:52:26 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:52:26 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:52:26 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:52:26 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Finding element:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Finding element:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be visible:  By.id: input-comment
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Finding element:  By.id: input-comment
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Finding element:  By.id: input-comment
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Data entered:  comment  in the field:  By.id: input-comment
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:52:28 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Finding element:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:52:28 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:52:31 [main] [Waits] - Waiting for element to be visible:  By.xpath: //*[@id='content']//p[1]
+[INFO] 02-07-2026 22:52:31 [main] [ElementActions] - Finding element:  By.xpath: //*[@id='content']//p[1]
+[INFO] 02-07-2026 22:52:31 [main] [ElementActions] - Getting text from the element:  By.xpath: //*[@id='content']//p[1]  Text:  Thank you for submitting your return request. Your request has been sent to the relevant department for processing.
+[INFO] 02-07-2026 22:52:31 [main] [ElementActions] - Finding element:  By.xpath: //*[@id='content']//p[1]
+[INFO] 02-07-2026 22:52:31 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Continue
+[INFO] 02-07-2026 22:52:31 [main] [Waits] - Waiting for element to be visible:  By.linkText: Continue
+[INFO] 02-07-2026 22:52:31 [main] [ElementActions] - Finding element:  By.linkText: Continue
+[INFO] 02-07-2026 22:52:32 [main] [ElementActions] - Clicked on the element:  By.linkText: Continue
+[INFO] 02-07-2026 22:52:33 [main] [BrowserActions] - Page title:  Your Store
+[INFO] 02-07-2026 22:52:35 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:52:35 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:52:35 [main] [ElementActions] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:52:35 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:52:40 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Logout
+[INFO] 02-07-2026 22:52:40 [main] [Waits] - Waiting for element to be visible:  By.linkText: Logout
+[INFO] 02-07-2026 22:52:40 [main] [ElementActions] - Finding element:  By.linkText: Logout
+[INFO] 02-07-2026 22:52:41 [main] [ElementActions] - Clicked on the element:  By.linkText: Logout
+[INFO] 02-07-2026 22:52:43 [main] [Hooks] - Test Execution Finished
+[INFO] 02-07-2026 22:52:43 [main] [BrowserActions] - Closing the browser
+[INFO] 02-07-2026 22:55:14 [main] [PropertiesUtils] - Loading Properties File Data
+[INFO] 02-07-2026 22:55:16 [main] [DriverManager] - Driver created on:  Chrome
+[INFO] 02-07-2026 22:55:16 [main] [Hooks] -  Test Execution Start :
+[INFO] 02-07-2026 22:55:16 [main] [FilesUtils] - Cleaned directory successfully: test-outputs/allure-results
+[INFO] 02-07-2026 22:55:16 [main] [FilesUtils] - Directory does not exist or is not a directory: test-outputs/Logs
+[INFO] 02-07-2026 22:55:21 [main] [BrowserActions] - Navigated to URL:  https://awesomeqa.com/ui/
+[INFO] 02-07-2026 22:55:26 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:55:26 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:55:26 [main] [ElementActions] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:55:26 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:55:31 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Register
+[INFO] 02-07-2026 22:55:31 [main] [Waits] - Waiting for element to be visible:  By.linkText: Register
+[INFO] 02-07-2026 22:55:31 [main] [ElementActions] - Finding element:  By.linkText: Register
+[INFO] 02-07-2026 22:55:33 [main] [ElementActions] - Clicked on the element:  By.linkText: Register
+[INFO] 02-07-2026 22:55:36 [main] [BrowserActions] - Page title:  Register Account
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.id: input-firstname
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-firstname
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-firstname
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Data entered:  QA  in the field:  By.id: input-firstname
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.id: input-lastname
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-lastname
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-lastname
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Data entered:  Automation  in the field:  By.id: input-lastname
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.id: input-email
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-email
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-email
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Data entered:  Emorya@a.com  in the field:  By.id: input-email
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.id: input-telephone
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-telephone
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-telephone
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Data entered:  012345  in the field:  By.id: input-telephone
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.id: input-password
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-password
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-password
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Data entered:  123456789  in the field:  By.id: input-password
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.id: input-confirm
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-confirm
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.id: input-confirm
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Data entered:  123456789  in the field:  By.id: input-confirm
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [name='agree']
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:55:41 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:55:41 [main] [ElementActions] - Finding element:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:55:42 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='Continue']
+[INFO] 02-07-2026 22:55:47 [main] [BrowserActions] - Page title:  Your Account Has Been Created!
+[INFO] 02-07-2026 22:55:49 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Continue
+[INFO] 02-07-2026 22:55:49 [main] [Waits] - Waiting for element to be visible:  By.linkText: Continue
+[INFO] 02-07-2026 22:55:49 [main] [ElementActions] - Finding element:  By.linkText: Continue
+[INFO] 02-07-2026 22:55:49 [main] [ElementActions] - Clicked on the element:  By.linkText: Continue
+[INFO] 02-07-2026 22:55:51 [main] [BrowserActions] - Current URL:  https://awesomeqa.com/ui/index.php?route=account/account
+[INFO] 02-07-2026 22:55:53 [main] [Waits] - Waiting for element to be visible:  By.name: search
+[INFO] 02-07-2026 22:55:53 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:55:53 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:55:54 [main] [ElementActions] - Data entered:  mac  in the field:  By.name: search
+[INFO] 02-07-2026 22:55:54 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:55:54 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:55:54 [main] [ElementActions] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:55:55 [main] [ElementActions] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:55:57 [main] [BrowserActions] - Page title:  Search - mac
+[INFO] 02-07-2026 22:56:00 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:00 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:00 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:00 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:03 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:56:03 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:03 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook to your shopping cart!
+×
+[INFO] 02-07-2026 22:56:03 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:05 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:05 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:05 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:05 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:08 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:56:08 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:08 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added iMac to your shopping cart!
+×
+[INFO] 02-07-2026 22:56:08 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:11 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:11 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:11 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:11 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:14 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:56:14 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:14 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook Air to your shopping cart!
+×
+[INFO] 02-07-2026 22:56:14 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:16 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:16 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:16 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:16 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:19 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:56:19 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:19 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added MacBook Pro to your shopping cart!
+×
+[INFO] 02-07-2026 22:56:19 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:21 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:21 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:22 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:22 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:24 [main] [Waits] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:56:24 [main] [Waits] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:56:24 [main] [ElementActions] - Finding element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:56:24 [main] [ElementActions] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:56:24 [main] [BrowserActions] - Page title:  Shopping Cart
+[INFO] 02-07-2026 22:56:26 [main] [ShoppingCartPage] - removeiMacfrom cart
+[INFO] 02-07-2026 22:56:26 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:26 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:26 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:26 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:30 [main] [Waits] - Waiting for element to be visible:  By.xpath: //*[@id='content']/form/div/table
+[INFO] 02-07-2026 22:56:30 [main] [ElementActions] - Getting html source text from element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] 02-07-2026 22:56:30 [main] [ElementActions] - Finding element:  By.xpath: //*[@id='content']/form/div/table
+[INFO] 02-07-2026 22:56:30 [main] [ShoppingCartPage] - assertiMacRemovedFromCart
+[INFO] 02-07-2026 22:56:32 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:32 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:32 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:32 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:34 [main] [HomePage] - removing product  MacBook Pro  from cart 
+[INFO] 02-07-2026 22:56:34 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:34 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:34 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:34 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:36 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:36 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:36 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:36 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:56:39 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart ul
+[INFO] 02-07-2026 22:56:39 [main] [ElementActions] - Getting html source text from element:  By.cssSelector: #cart ul
+[INFO] 02-07-2026 22:56:39 [main] [ElementActions] - Finding element:  By.cssSelector: #cart ul
+[INFO] 02-07-2026 22:56:39 [main] [HomePage] - assertMacBook ProRemovedFromCart
+[INFO] 02-07-2026 22:56:42 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:56:42 [main] [Waits] - Waiting for element to be visible:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:56:42 [main] [ElementActions] - Finding element:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:56:42 [main] [ElementActions] - Clicked on the element:  By.linkText: Continue Shopping
+[INFO] 02-07-2026 22:56:45 [main] [BrowserActions] - Page title:  Your Store
+[INFO] 02-07-2026 22:56:48 [main] [Waits] - Waiting for element to be visible:  By.name: search
+[INFO] 02-07-2026 22:56:48 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:56:48 [main] [ElementActions] - Finding element:  By.name: search
+[INFO] 02-07-2026 22:56:48 [main] [ElementActions] - Data entered:  ipod  in the field:  By.name: search
+[INFO] 02-07-2026 22:56:48 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:56:48 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:56:48 [main] [ElementActions] - Finding element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:56:49 [main] [ElementActions] - Clicked on the element:  By.cssSelector: .col-sm-5 button
+[INFO] 02-07-2026 22:56:51 [main] [BrowserActions] - Page title:  Search - ipod
+[INFO] 02-07-2026 22:56:53 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:53 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:53 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:53 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:56:56 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:56:56 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:56 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPod Classic to your shopping cart!
+×
+[INFO] 02-07-2026 22:56:56 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:56:58 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:56:58 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:56:58 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:56:58 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:57:02 [main] [Waits] - Waiting for element to be visible:  By.className: alert
+[INFO] 02-07-2026 22:57:02 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:57:02 [main] [ElementActions] - Getting text from the element:  By.className: alert  Text:  Success: You have added iPod Nano to your shopping cart!
+×
+[INFO] 02-07-2026 22:57:02 [main] [ElementActions] - Finding element:  By.className: alert
+[INFO] 02-07-2026 22:57:04 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:04 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:04 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:04 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:06 [main] [Waits] - Waiting for element to be clickable:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:57:06 [main] [Waits] - Waiting for element to be visible:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:57:06 [main] [ElementActions] - Finding element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:57:07 [main] [ElementActions] - Clicked on the element:  By.partialLinkText: Cart
+[INFO] 02-07-2026 22:57:07 [main] [BrowserActions] - Page title:  Shopping Cart
+[INFO] 02-07-2026 22:57:09 [main] [ShoppingCartPage] - adding quantity to product :  3
+[INFO] 02-07-2026 22:57:09 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:09 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:09 [main] [ElementActions] - Data entered:  3  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:57:11 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:57:11 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:57:11 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:11 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:12 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:57:14 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:14 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:14 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:57:14 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:16 [main] [ShoppingCartPage] - adding quantity to product :  5
+[INFO] 02-07-2026 22:57:16 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:16 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:16 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:16 [main] [ElementActions] - Data entered:  5  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:57:19 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:57:19 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:57:19 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:19 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:19 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:57:22 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:22 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:22 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:57:22 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:24 [main] [ShoppingCartPage] - adding quantity to product :  1
+[INFO] 02-07-2026 22:57:24 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:24 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:24 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:24 [main] [ElementActions] - Data entered:  1  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:57:26 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:57:26 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:57:26 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:26 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:27 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:57:29 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:29 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:29 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:57:29 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:31 [main] [ShoppingCartPage] - adding quantity to product :  2
+[INFO] 02-07-2026 22:57:31 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:31 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:31 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:31 [main] [ElementActions] - Data entered:  2  in the field:  [unknown locator]
+[INFO] 02-07-2026 22:57:34 [main] [ShoppingCartPage] - Click update Button
+[INFO] 02-07-2026 22:57:34 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:57:34 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:34 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:34 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:57:37 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:37 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:37 [main] [ElementActions] - Getting text from the element:  By.cssSelector: .alert  Text:  Success: You have modified your shopping cart!
+×
+[INFO] 02-07-2026 22:57:37 [main] [ElementActions] - Finding element:  By.cssSelector: .alert
+[INFO] 02-07-2026 22:57:39 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:39 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:39 [main] [ElementActions] - Finding element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:39 [main] [ElementActions] - Clicked on the element:  By.cssSelector: #cart button
+[INFO] 02-07-2026 22:57:41 [main] [HomePage] - removing product  MacBook  from cart 
+[INFO] 02-07-2026 22:57:41 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:57:41 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:41 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:57:41 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:57:43 [main] [HomePage] - removing product  iMac  from cart 
+[INFO] 02-07-2026 22:57:43 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:57:43 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:57:53 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Checkout
+[INFO] 02-07-2026 22:57:53 [main] [Waits] - Waiting for element to be visible:  By.linkText: Checkout
+[INFO] 02-07-2026 22:57:53 [main] [ElementActions] - Finding element:  By.linkText: Checkout
+[INFO] 02-07-2026 22:57:54 [main] [ElementActions] - Clicked on the element:  By.linkText: Checkout
+[INFO] 02-07-2026 22:57:55 [main] [BrowserActions] - Page title:  Checkout
+[INFO] 02-07-2026 22:57:57 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Data entered:  Test  in the field:  By.id: input-payment-firstname
+[INFO] 02-07-2026 22:57:57 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Data entered:  Lohas  in the field:  By.id: input-payment-lastname
+[INFO] 02-07-2026 22:57:57 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-address-1
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-address-1
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-address-1
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Data entered:  cairo  in the field:  By.id: input-payment-address-1
+[ERROR] 02-07-2026 22:57:57 [main] [NamingUtils] - Could not find parameter address
+[INFO] 02-07-2026 22:57:57 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-city
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-city
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-city
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Data entered:  giza  in the field:  By.id: input-payment-city
+[INFO] 02-07-2026 22:57:57 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Data entered:  0002  in the field:  By.id: input-payment-postcode
+[INFO] 02-07-2026 22:57:57 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-country
+[INFO] 02-07-2026 22:57:57 [main] [ElementActions] - Finding element:  By.id: input-payment-country
+[INFO] 02-07-2026 22:57:58 [main] [Waits] - Waiting for element to be visible:  By.id: input-payment-zone
+[INFO] 02-07-2026 22:57:58 [main] [ElementActions] - Finding element:  By.id: input-payment-zone
+[INFO] 02-07-2026 22:58:01 [main] [Waits] - Waiting for element to be clickable:  By.id: button-payment-address
+[INFO] 02-07-2026 22:58:01 [main] [Waits] - Waiting for element to be visible:  By.id: button-payment-address
+[INFO] 02-07-2026 22:58:01 [main] [ElementActions] - Finding element:  By.id: button-payment-address
+[INFO] 02-07-2026 22:58:01 [main] [ElementActions] - Clicked on the element:  By.id: button-payment-address
+[INFO] 02-07-2026 22:58:03 [main] [Waits] - Waiting for element to be clickable:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:58:03 [main] [Waits] - Waiting for element to be visible:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:58:03 [main] [ElementActions] - Finding element:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:58:03 [main] [ElementActions] - Clicked on the element:  By.id: button-shipping-address
+[INFO] 02-07-2026 22:58:05 [main] [Waits] - Waiting for element to be clickable:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:58:05 [main] [Waits] - Waiting for element to be visible:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:58:05 [main] [ElementActions] - Finding element:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:58:05 [main] [ElementActions] - Clicked on the element:  By.id: button-shipping-method
+[INFO] 02-07-2026 22:58:07 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:58:07 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:07 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:07 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:58:07 [main] [Waits] - Waiting for element to be clickable:  By.id: button-payment-method
+[INFO] 02-07-2026 22:58:07 [main] [Waits] - Waiting for element to be visible:  By.id: button-payment-method
+[INFO] 02-07-2026 22:58:07 [main] [ElementActions] - Finding element:  By.id: button-payment-method
+[INFO] 02-07-2026 22:58:07 [main] [ElementActions] - Clicked on the element:  By.id: button-payment-method
+[INFO] 02-07-2026 22:58:09 [main] [Waits] - Waiting for element to be visible:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:58:09 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:58:09 [main] [ElementActions] - Getting text from the element:  By.linkText: MacBook Air  Text:  MacBook Air
+[INFO] 02-07-2026 22:58:09 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:58:09 [main] [CheckOutPage] - product name is MacBook Air
+[INFO] 02-07-2026 22:58:09 [main] [Waits] - Waiting for element to be visible:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:58:09 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Getting text from the element:  By.linkText: MacBook Air  Text:  MacBook Air
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  By.linkText: MacBook Air
+[INFO] 02-07-2026 22:58:10 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $1,000.00
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [CheckOutPage] - product price is $1,000.00
+[INFO] 02-07-2026 22:58:10 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $1,000.00
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  3
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [CheckOutPage] - product quantity is 3
+[INFO] 02-07-2026 22:58:10 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  3
+[INFO] 02-07-2026 22:58:10 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:10 [main] [CheckOutPage] - assertProductDetails is successfully passed
+[INFO] 02-07-2026 22:58:12 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Classic  Text:  iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [CheckOutPage] - product name is iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Classic  Text:  iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  By.linkText: iPod Classic
+[INFO] 02-07-2026 22:58:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [CheckOutPage] - product price is $100.00
+[INFO] 02-07-2026 22:58:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  1
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [CheckOutPage] - product quantity is 1
+[INFO] 02-07-2026 22:58:12 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  1
+[INFO] 02-07-2026 22:58:12 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:12 [main] [CheckOutPage] - assertProductDetails is successfully passed
+[INFO] 02-07-2026 22:58:14 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Nano  Text:  iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [CheckOutPage] - product name is iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [Waits] - Waiting for element to be visible:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Getting text from the element:  By.linkText: iPod Nano  Text:  iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Finding element:  By.linkText: iPod Nano
+[INFO] 02-07-2026 22:58:14 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:58:14 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:14 [main] [CheckOutPage] - product price is $100.00
+[INFO] 02-07-2026 22:58:14 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  $100.00
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  2
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [CheckOutPage] - product quantity is 2
+[INFO] 02-07-2026 22:58:15 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Getting text from the element:  [unknown locator]  Text:  2
+[INFO] 02-07-2026 22:58:15 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:15 [main] [CheckOutPage] - assertProductDetails is successfully passed
+[INFO] 02-07-2026 22:58:17 [main] [Waits] - Waiting for element to be clickable:  By.id: button-confirm
+[INFO] 02-07-2026 22:58:17 [main] [Waits] - Waiting for element to be visible:  By.id: button-confirm
+[INFO] 02-07-2026 22:58:17 [main] [ElementActions] - Finding element:  By.id: button-confirm
+[INFO] 02-07-2026 22:58:17 [main] [ElementActions] - Clicked on the element:  By.id: button-confirm
+[INFO] 02-07-2026 22:58:21 [main] [BrowserActions] - Page title:  Your order has been placed!
+[INFO] 02-07-2026 22:58:23 [main] [Waits] - Waiting for element to be clickable:  By.linkText: history
+[INFO] 02-07-2026 22:58:23 [main] [Waits] - Waiting for element to be visible:  By.linkText: history
+[INFO] 02-07-2026 22:58:23 [main] [ElementActions] - Finding element:  By.linkText: history
+[INFO] 02-07-2026 22:58:24 [main] [ElementActions] - Clicked on the element:  By.linkText: history
+[INFO] 02-07-2026 22:58:26 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:58:26 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:58:26 [main] [ElementActions] - Finding element:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:58:26 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [data-original-title='View']
+[INFO] 02-07-2026 22:58:28 [main] [Waits] - Waiting for element to be clickable:  [unknown locator]
+[INFO] 02-07-2026 22:58:28 [main] [Waits] - Waiting for element to be visible:  [unknown locator]
+[INFO] 02-07-2026 22:58:28 [main] [ElementActions] - Finding element:  [unknown locator]
+[INFO] 02-07-2026 22:58:29 [main] [ElementActions] - Clicked on the element:  [unknown locator]
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Finding element:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='4']
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Finding element:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='1']
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be visible:  By.id: input-comment
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Finding element:  By.id: input-comment
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Finding element:  By.id: input-comment
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Data entered:  comment  in the field:  By.id: input-comment
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:58:31 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:58:31 [main] [ElementActions] - Finding element:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:58:32 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [value='Submit']
+[INFO] 02-07-2026 22:58:34 [main] [Waits] - Waiting for element to be visible:  By.xpath: //*[@id='content']//p[1]
+[INFO] 02-07-2026 22:58:34 [main] [ElementActions] - Finding element:  By.xpath: //*[@id='content']//p[1]
+[INFO] 02-07-2026 22:58:34 [main] [ElementActions] - Getting text from the element:  By.xpath: //*[@id='content']//p[1]  Text:  Thank you for submitting your return request. Your request has been sent to the relevant department for processing.
+[INFO] 02-07-2026 22:58:34 [main] [ElementActions] - Finding element:  By.xpath: //*[@id='content']//p[1]
+[INFO] 02-07-2026 22:58:34 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Continue
+[INFO] 02-07-2026 22:58:34 [main] [Waits] - Waiting for element to be visible:  By.linkText: Continue
+[INFO] 02-07-2026 22:58:34 [main] [ElementActions] - Finding element:  By.linkText: Continue
+[INFO] 02-07-2026 22:58:35 [main] [ElementActions] - Clicked on the element:  By.linkText: Continue
+[INFO] 02-07-2026 22:58:36 [main] [BrowserActions] - Page title:  Your Store
+[INFO] 02-07-2026 22:58:38 [main] [Waits] - Waiting for element to be clickable:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:58:38 [main] [Waits] - Waiting for element to be visible:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:58:38 [main] [ElementActions] - Finding element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:58:38 [main] [ElementActions] - Clicked on the element:  By.cssSelector: [title='My Account']
+[INFO] 02-07-2026 22:58:43 [main] [Waits] - Waiting for element to be clickable:  By.linkText: Logout
+[INFO] 02-07-2026 22:58:43 [main] [Waits] - Waiting for element to be visible:  By.linkText: Logout
+[INFO] 02-07-2026 22:58:43 [main] [ElementActions] - Finding element:  By.linkText: Logout
+[INFO] 02-07-2026 22:58:44 [main] [ElementActions] - Clicked on the element:  By.linkText: Logout
+[INFO] 02-07-2026 22:58:46 [main] [Hooks] - Test Execution Finished
+[INFO] 02-07-2026 22:58:46 [main] [BrowserActions] - Closing the browser

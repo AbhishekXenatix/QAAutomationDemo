@@ -164,7 +164,8 @@
                         </argLine>
                         <systemPropertyVariables>
                             <!-- Forces Allure to write into your framework's custom test-outputs path -->
-                            <allure.results.directory>${project.basedir}/test-outputs/allure-results</allure.results.directory>
+<!--                            <allure.results.directory>${project.basedir}/test-outputs/allure-results</allure.results.directory>-->
+                            <allure.results.directory>target/allure-results</allure.results.directory>
                         </systemPropertyVariables>
                     </configuration>
                 </plugin>
