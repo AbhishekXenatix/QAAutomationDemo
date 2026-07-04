@@ -19,7 +19,7 @@ public class Login_StepDef {
     public void UserNavigatestoHomePage() throws InterruptedException {
         homePage.navigateToHomePage();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
 
     }
@@ -29,7 +29,7 @@ public class Login_StepDef {
     public void userClicksOnMyAccountIcon() throws InterruptedException {
         homePage.clickOnMyAccount();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     // 3. Steps

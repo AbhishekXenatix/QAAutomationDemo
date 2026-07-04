@@ -13,7 +13,7 @@ public class Search_StepDef {
     public void userEnterProductInSearch(String product) throws InterruptedException {
         homePage.searchFeature(product);
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 
@@ -21,7 +21,7 @@ public class Search_StepDef {
     public void assertSearchPageAppearanceOf(String text) throws InterruptedException {
         homePage.assertsuccessfullSearchForSpecificWord(text);
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 

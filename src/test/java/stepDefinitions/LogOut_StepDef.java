@@ -14,7 +14,7 @@ public class LogOut_StepDef {
     public void userClicksOnLogout() throws InterruptedException {
         myAccountPage.clickMyLogoutIcon();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @Then("Account Logout Page Appears")

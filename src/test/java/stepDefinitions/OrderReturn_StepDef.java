@@ -17,7 +17,7 @@ public class OrderReturn_StepDef {
     public void clickonOrderHistory() throws InterruptedException {
         orderReturnPage.clickOrderHistory();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 
@@ -25,14 +25,14 @@ public class OrderReturn_StepDef {
     public void userClickOnViewOrderButton() throws InterruptedException {
         orderReturnPage.clickViewOrder();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @And("User click on Return button for Specific Product {string}")
     public void userclickonReturnbuttonforSpecificProduct(String product) throws InterruptedException {
         orderReturnPage.clickReturnSpecificProductButton(product);
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 
@@ -43,7 +43,7 @@ public class OrderReturn_StepDef {
         orderReturnPage.enterComment(comment);
         orderReturnPage.clickSubmitButton();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 
@@ -57,7 +57,7 @@ public class OrderReturn_StepDef {
         orderReturnPage.clickcontinueButton();
         homePage.assertDirectedToHomePage();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
 
 

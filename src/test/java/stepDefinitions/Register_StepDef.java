@@ -20,7 +20,7 @@ public class Register_StepDef {
         homePage.clickOnRegister();
         homePage.assertDirectedToRegisterPage();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -36,7 +36,7 @@ public class Register_StepDef {
         String randomEmail = name + "a@a.com";
         registerPage.registerNewAcount(Fname, Lname, randomEmail, phone, password, password);
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
 
@@ -53,7 +53,7 @@ public class Register_StepDef {
     public void successfullyCreationShouldBeDisplayed() throws InterruptedException {
         registerPage.assertSuccessfullnewAccountRegistered();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -64,7 +64,7 @@ public class Register_StepDef {
         registerPage.clickContinueBtn();
         myAccountPage.assertDirectedToMyAccountURL();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 

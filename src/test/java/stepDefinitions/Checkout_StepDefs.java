@@ -19,14 +19,14 @@ public class Checkout_StepDefs {
         shoppingCartPage.clickCheckoutButton();
         checkOutPage.assertDirectedToCheckOutPage();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @And("User Enters Valid Credentials in Billing Details {string},{string},{string},{string},{string},{string},{string}")
     public void userEntersValidCredentialsInBillingDetails(String fname, String lname, String address, String city, String postcode, String country, String state) throws InterruptedException {
         checkOutPage.billingDetails(fname, lname, address, city, postcode, country, state);
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -34,7 +34,7 @@ public class Checkout_StepDefs {
     public void userConfirmBillingDetails() throws InterruptedException {
         checkOutPage.clickContinueButtonPaymentAddress();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -43,7 +43,7 @@ public class Checkout_StepDefs {
     public void userConfirmDeliveryDetails() throws InterruptedException {
         checkOutPage.clickContinueButtonShippingAddress();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -51,7 +51,7 @@ public class Checkout_StepDefs {
     public void userSelectDeliveryMethod() throws InterruptedException {
         checkOutPage.clickContinueButtonShippingMethod();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @And("User Select Payment Method")
@@ -59,7 +59,7 @@ public class Checkout_StepDefs {
         checkOutPage.clickAgreeToTerms_Conditions();
         checkOutPage.clickContinueButtonPaymentMethod();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
@@ -67,21 +67,21 @@ public class Checkout_StepDefs {
     public void assertOredredProductDetails(String productname, String productPrice, String productQuantity) throws InterruptedException {
         checkOutPage.assertProductDetails(productname, productPrice, productQuantity);
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @And("User Confirm Order Details")
     public void userConfirmOrderDetails() throws InterruptedException {
         checkOutPage.clickConfirmOrderButton();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     @Then("Order Confirmation message appear")
     public void orderConfirmationMessageAppear() throws InterruptedException {
         checkOutPage.assertOrderHasBeenPlaced();
         ScreenshotUtils.attachScreenshot(DriverManager.getDriver(), "");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
     }
 
